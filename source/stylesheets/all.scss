@@ -1,0 +1,15 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+
+body {
+}
+
+section{
+  @include outer-container;
+  article {
+    @include span-columns(8);
+  }
+  aside {
+    @include span-columns(4);
+  }
+}

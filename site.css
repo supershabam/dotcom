@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Comic Neue';
+  src: url("fonts/ComicNeue-Light.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/ComicNeue-Light.eot?#iefix") format("embedded-opentype"), url("fonts/ComicNeue-Light.woff") format("woff"), url("fonts/ComicNeue-Light.ttf") format("truetype");
+  /* Safari, Android, iOS */
+  font-weight: 100; }
+body {
+  background-color: #646464;
+  font-family: 'Comic Neue', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.5;
+  /* Enable a font's kerning: http://stackoverflow.com/questions/15160897/font-feature-settings-what-is-the-correct-syntax */
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  font-feature-settings: "kern"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Comic Neue', sans-serif; }

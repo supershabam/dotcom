@@ -6,7 +6,8 @@
   /* Safari, Android, iOS */
   font-weight: 100; }
 body {
-  background-color: #646464;
+  background-color: #404040;
+  color: #F2EFDC;
   font-family: 'Comic Neue', sans-serif;
   font-weight: 300;
   font-size: 1em;
@@ -14,7 +15,20 @@ body {
   /* Enable a font's kerning: http://stackoverflow.com/questions/15160897/font-feature-settings-what-is-the-correct-syntax */
   -webkit-font-feature-settings: "kern";
   -moz-font-feature-settings: "kern";
-  font-feature-settings: "kern"; }
+  font-feature-settings: "kern";
+  overflow: hidden; }
 
 h1, h2, h3, h4, h5, h6 {
+  color: #F2EFDC;
   font-family: 'Comic Neue', sans-serif; }
+
+#as-seen-on li i {
+  font-size: 4em; }
+
+#as-seen-on a {
+  color: #037E8C;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+
+#as-seen-on a:hover {
+  text-shadow: 1px 0px 20px #F2EFDC; }
